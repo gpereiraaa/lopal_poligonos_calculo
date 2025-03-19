@@ -1,7 +1,7 @@
 package br.com.engsenai.projeto_formas.model;
 
 public class Quadrado {
-	
+
 	public double lado;
 	
 	public void setLado(double lado) {
@@ -31,5 +31,4 @@ public class Quadrado {
 		System.out.println("Perímetro: " + calcularPerimetro());
 		System.out.println("----------------------");
 	}
-	
 }
