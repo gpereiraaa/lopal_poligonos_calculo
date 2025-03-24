@@ -34,9 +34,9 @@ public class Retangulo {
 		System.out.println("-----------------------");
 		System.out.println(" R E T Â N G U L O:");
 		System.out.println("-----------------------");
-		System.out.println("Base: " + base);
-		System.out.println("Altura: " + altura);
-		System.out.println("Área: " + calcularArea());
+		System.out.println("Base:      " + base);
+		System.out.println("Altura:    " + altura);
+		System.out.println("Área:      " + calcularArea());
 		System.out.println("Perímetro: " + calcularPerimetro());
 		System.out.println("------------------------");
 	}

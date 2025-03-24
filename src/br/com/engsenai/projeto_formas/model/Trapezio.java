@@ -43,8 +43,8 @@ public class Trapezio {
 		System.out.println("-----------------------");
 		System.out.println("Base Maior: " + baseMaior);
 		System.out.println("Base Menor: " + baseMenor);
-		System.out.println("Altura: " + altura);
-		System.out.println("Área: " + calcularArea());
+		System.out.println("Altura:     " + altura);
+		System.out.println("Área:       " + calcularArea());
 		System.out.println("------------------------");
 		
 		

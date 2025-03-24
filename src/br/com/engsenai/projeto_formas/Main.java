@@ -2,6 +2,7 @@
 
 package br.com.engsenai.projeto_formas;
 
+import br.com.engsenai.projeto_formas.model.Circunferencia;
 import br.com.engsenai.projeto_formas.model.Quadrado;
 import br.com.engsenai.projeto_formas.model.Retangulo;
 import br.com.engsenai.projeto_formas.model.Trapezio;
@@ -33,6 +34,10 @@ public class Main {
 		tr1.setAltura(3);
 		tr1.setBase(4);
 		tr1.mostrarDados();
+		
+		Circunferencia c1 = new Circunferencia();
+		c1.setRaio(4);
+		c1.mostrarDados();
 				
 				
 	}
