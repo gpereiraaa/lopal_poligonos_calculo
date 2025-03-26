@@ -2,44 +2,24 @@
 
 package br.com.engsenai.projeto_formas;
 
-import br.com.engsenai.projeto_formas.model.Circunferencia;
-import br.com.engsenai.projeto_formas.model.Quadrado;
-import br.com.engsenai.projeto_formas.model.Retangulo;
-import br.com.engsenai.projeto_formas.model.Trapezio;
-import br.com.engsenai.projeto_formas.model.Triangulo;
+import java.util.Scanner;
+import br.com.engsenai.projeto_formas.ui.Menu;
 
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Quadrado q1= new Quadrado();
-		q1.setLado(5);
+		//Scanner scanner = new Scanner(System.in);
+		//System.out.print("Escreva seu nome: ");
+		//String nome = scanner.next();		
 		
-		q1.mostrarDados();
+		//System.out.println(nome.length());
+		//System.out.println("Olá " + nome);
+		//System.out.println(nome.toUpperCase());
 		
-		
-		Trapezio t1 = new Trapezio();
-		t1.setAltura(3);
-		t1.setBaseMaior(4);
-		t1.setBaseMenor(2);
-		t1.mostrarDados();
-		
-		Retangulo r1 = new Retangulo();
-		r1.setAltura(5);
-		r1.setBase(3);
-		r1.mostrarDados();
-		
-		Triangulo tr1 = new Triangulo();
-		tr1.setAltura(3);
-		tr1.setBase(4);
-		tr1.mostrarDados();
-		
-		Circunferencia c1 = new Circunferencia();
-		c1.setRaio(4);
-		c1.mostrarDados();
-				
-				
+		Menu menu = new Menu();
+		menu.criarMenu();
 	}
 
 
